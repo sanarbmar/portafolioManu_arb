@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+h1, h3 {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.btn {
+  background-color: #3F3F3D;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#maria-manuela, #arboleda {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.circle-father {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8%;
+}
+
+#circle {
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+}
+
+#circle #img-circle {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+/* #nav-desktop{
+    width: 12%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    float: right;
+}
+.menu-items{
+    width: 40%;
+    border: 2px solid white;
+    background-color: #3B3B3A;
+    padding: 15px;
+    margin-bottom: 50px;
+} */
+.body-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#titulo-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#maria-manuela-desktop, #arboleda-desktop {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#circle-father-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8%;
+  padding: 5%;
+}
+
+#circle-desktop {
+  border-radius: 100%;
+  width: 420px;
+  height: 420px;
+}
+
+#circle-desktop #img-circle-desktop {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#flex-banderas-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.banderas-desktop {
+  width: 150px;
+  height: 150px;
+}
+
+.banderas-desktop img {
+  width: 100%;
+  height: 70%;
+}
+
+.banderas-desktop h3 {
+  margin-bottom: 8%;
+}
+
+#nav-desktop {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#nav-desktop .menu-items, #nav-desktop .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #3B3B3A;
+  margin: 0% 0% 15% 1%;
+}
+
+#nav-desktop .menu-items h1, #nav-desktop .btn h1 {
+  font-size: 1.2em;
+  padding: 10%;
+}
+
+#nav-desktop .menu-items a, #nav-desktop .btn a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+#flex-banderas-desktop, #info-principal, #nav-desktop {
+  margin-top: 5%;
+}
+
+.menu-desplegable, .nav-mobile, .titulo-mobile, #flex-banderas, .circle-father, #circle-mobile,
+#flex-banderas-mobile, .banderas-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .menu-desplegable, .nav-mobile, .titulo-mobile, #flex-banderas, .circle-father, #circle-mobile, #flex-banderas-mobile
+, .banderas-mobile {
+    display: block;
+  }
+  .body-desktop {
+    display: none;
+  }
+  .titulo-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .circle-father-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #circle-mobile {
+    border-radius: 100%;
+    width: 15.5rem;
+    height: 15.5rem;
+  }
+  #circle-mobile #img-circle {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  #flex-banderas-mobile {
+    margin-top: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .banderas-mobile {
+    margin: 1% 1% 1% 1%;
+    width: 100px;
+    height: 100px;
+  }
+  .banderas-mobile img {
+    width: 100%;
+    height: 70%;
+  }
+  .banderas-mobile h3 {
+    margin-bottom: 8%;
+  }
+  .nav-mobile, .menu-desplegable {
+    display: block;
+  }
+  #centrado {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    margin-left: 20%;
+  }
+  i.fa-times {
+    display: none;
+  }
+  .menu-desplegable {
+    background: #3F3F3D;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+  }
+  .menu-desplegable ul {
+    list-style-type: none;
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+  .menu-desplegable a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding: 20px;
+  }
+  .logo-movil {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+  }
+  .white {
+    color: #FFFFFF;
+  }
+  .menu-desplegable label i {
+    font-size: 40px;
+    float: right;
+    cursor: pointer;
+    padding-top: 15px;
+  }
+  input#menu {
+    display: none;
+  }
+  #correr {
+    float: right;
+  }
+  /* al hacer check en las barras de hamburguesa  */
+  input:checked + label i.fa-bars {
+    /*se esconden las barras*/
+    display: none;
+  }
+  input:checked + label i.fa-times {
+    /*se muestra la x */
+    display: block;
+  }
+  .menu-azul {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 50px;
+  }
+  input:checked ~ label i.fa-times {
+    display: block;
+  }
+  input:checked ~ .menu-azul {
+    max-height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
